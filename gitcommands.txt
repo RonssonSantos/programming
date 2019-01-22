@@ -20,4 +20,3 @@ $ git reflog// historial de cambios
 $ git reset --hard(o tambien --soft) index.html// sirve para recuperar algun archivo borrado previamente
 $ git clone https://github.com/RonssonSantos/Equipo6.git // el de arriba GIT CLONE ES UTILIZADO PARA COPIAR TODO EL CONTENIDO DE UN repositorio
 // LO QEU QUIERE DECIR QEU POR MEDIO DE UBICAR EL BASH IN LA CARPETA DONDE TENGAMOS EL .git descaragara alla la copia
-eeeeeeeeeeee
