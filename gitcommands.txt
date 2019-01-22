@@ -1,0 +1,22 @@
+$ git init // inicializar git
+$ git add index.html // add git to the staging area
+$ git status // show whats in the staging area
+$ git rm --cached (the name of file, like index.html)// eliminar de staging area cierto archivo (como un index.html)
+$ git add *.html(or any other file not just html)
+$ git add . // añade toodos los archivos sin importar su terminacion
+$ git commit // repositorio
+:wq // guardar
+$ git commit -m 'Changed<name of file like programacion.js>'// commit saved files with the changes just made
+clear // limpiar bash consola de git
+$ git commit -m "puedes escribir un mensaje aqui"
+$ git diff // funciona despues de haber echo un add un archivo y despues modificarlo, este , muestra que fue lo que cambio
+$ git log // muestra los commits en historial vistos en una lista
+$ git add -A// es lo mismo que es $ git add .
+$ git add -- all// es lo mismo que git add .
+$ git commit --amend -m "nueva modificacion al index.html"// por que recuerda que lo habiamos escrito mal inde.html. por error nos equivocamos en el texto que le dimos de identificacion
+$ git mv inde.html index.html// cambiar de nombres a los archivos por medio del bash de git
+b37374390fb1a96e08de9575c2387907cc061705
+$ git reflog// historial de cambios
+$ git reset --hard(o tambien --soft) index.html// sirve para recuperar algun archivo borrado previamente
+$ git clone https://github.com/RonssonSantos/Equipo6.git // el de arriba GIT CLONE ES UTILIZADO PARA COPIAR TODO EL CONTENIDO DE UN repositorio
+// LO QEU QUIERE DECIR QEU POR MEDIO DE UBICAR EL BASH IN LA CARPETA DONDE TENGAMOS EL .git descaragara alla la copia
